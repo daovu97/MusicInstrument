@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lg_english">English</string>
+    <string name="lg_french">French</string>
+    <string name="lg_hindi">Hindi</string>
+    <string name="lg_china">China</string>
+    <string name="lg_spanish">Spanish</string>
+    <string name="lg_portuguese">Portuguese</string>
+    <string name="lg_indo">Indonesian</string>
+    <string name="lg_japan">Japanese</string>
+    <string name="lg_korean">Korean</string>
+    <string name="lg_vietnam">Vietnamese</string>
+    <string name="app_name">Musicaly</string>
+    <string name="themes">थीम्स</string>
+    <string name="learn_piano">Learn Piano</string>
+    <string name="menu">मेनू</string>
+    <string name="language">भाषा</string>
+    <string name="share">साझा करें</string>
+    <string name="rate">रेट करें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="play_piano">पियानो बजाएं</string>
+    <string name="guitar">गिटार</string>
+    <string name="drumset">ड्रम सेट</string>
+    <string name="theme">थीम</string>
+    <string name="tite_splash">यह कार्रवाई विज्ञापन शामिल कर सकती है</string>
+    <string name="next">अगला</string>
+    <string name="beginning_learn_piano">हमारे उपयोगकर्ता-मित्री से पियानो को शास्त्रीय करें।</string>
+    <string name="real_piano">हमारे ऐप के साथ पियानो धुनें बजाएँ!</string>
+    <string name="and_more_musical_instrument">और अधिक संगीत यंत्र।</string>
+    <string name="start">शुरू करें</string>
+    <string name="double_keys">डबल कुंजियाँ</string>
+    <string name="_2_players">2 खिलाड़ी</string>
+    <string name="style">शैली</string>
+    <string name="setting">सेटिंग</string>
+    <string name="recorder">रिकॉर्डर</string>
+    <string name="speed">गति</string>
+    <string name="play">बजाएं</string>
+    <string name="show_notes">नोट दिखाएं</string>
+    <string name="manager_file_record">पियानो फ़ाइल रिकॉर्ड</string>
+    <string name="volume">आवाज़</string>
+    <string name="record_list">रिकॉर्ड सूची</string>
+    <string name="music_list">संगीत सूची</string>
+    <string name="style_piano">पियानो शैली</string>
+    <string name="micro">माइक्रोफ़ोन</string>
+    <string name="piano">पियानो</string>
+    <string name="storage">संग्रहण</string>
+    <string name="permission">अनुमान्यता</string>
+    <string name="go">जाओ</string>
+    <string name="string_allow_translate">LearnPiano को उपकरण के संग्रहण का उपयोग करने और ऑडियो रिकॉर्ड करने की अनुमति की आवश्यकता होती है</string>
+    <string name="record_file_audio">ऑडियो रिकॉर्ड</string>
+    <string name="noti_need_permission">आपको अनुमति सक्षम करनी होगी</string>
+    <string name="go_to_setting">सेटिंग्स पर जाएं</string>
+    <string name="record">रिकॉर्ड</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="save">सहेजें</string>
+    <string name="todo">करने के लिए</string>
+    <string name="change_name">नाम बदलें</string>
+    <string name="please_feedback">कृपया प्रतिक्रिया दें</string>
+    <string name="warning_record">यह कार्रवाई रिकॉर्ड करते समय नहीं की जा सकती है!</string>
+    <string name="name">नाम</string>
+    <string name="swipe_to_change_background">पृष्ठभूमि बदलने के लिए स्वाइप करें</string>
+    <string name="accept">स्वीकृति</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //id test
+    <string name="app_id" translatable="false"></string>
+
+    <string name="inter_splash" translatable="false"></string>
+    <string name="appopen_resume" translatable="false"></string>
+    <string name="native_language" translatable="false"></string>
+    <string name="native_language_2" translatable="false"></string>
+    <string name="native_language_3" translatable="false"></string>
+    <string name="native_home" translatable="false"></string>
+    <string name="banner" translatable="false"></string>
+    <string name="inter_theme" translatable="false"></string>
+    <string name="native_theme" translatable="false"></string>
+    <string name="inter_piano" translatable="false"></string>
+    <string name="inter_style" translatable="false"></string>
+    <string name="inter_all" translatable="false"></string>
+    <string name="native_music" translatable="false"></string>
+    <string name="native_record" translatable="false"></string>
+</resources>

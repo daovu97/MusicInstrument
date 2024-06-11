@@ -1,0 +1,11 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LearnPiano" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="Theme.FullScreen" parent="Base.Theme.LearnPiano">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

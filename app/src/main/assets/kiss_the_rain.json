@@ -1,0 +1,33 @@
+[
+  {"_comment": "G5 C6 D6 D6 E6 E6"},
+  {"type":1, "group":5, "position":4, "break":100},
+  {"type":1, "group":6, "position":0, "break":100},
+  {"type":1, "group":6, "position":1, "break":100},
+  {"type":1, "group":6, "position":1, "break":100},
+  {"type":1, "group":6, "position":2, "break":100},
+  {"type":1, "group":6, "position":2, "break":200},
+
+  {"_comment": "C6 D6 E6 D6 G6 G6"},
+  {"type":1, "group":6, "position":0, "break":100},
+  {"type":1, "group":6, "position":1, "break":100},
+  {"type":1, "group":6, "position":2, "break":100},
+  {"type":1, "group":6, "position":1, "break":100},
+  {"type":1, "group":6, "position":4, "break":100},
+  {"type":1, "group":6, "position":4, "break":200},
+
+  {"_comment": "G5 A5 B5 B5 C6 C6"},
+  {"type":1, "group":5, "position":4, "break":100},
+  {"type":1, "group":5, "position":5, "break":100},
+  {"type":1, "group":5, "position":6, "break":100},
+  {"type":1, "group":5, "position":6, "break":100},
+  {"type":1, "group":6, "position":0, "break":100},
+  {"type":1, "group":6, "position":0, "break":200},
+
+  {"_comment": "D6 E6 D6 C6 B5"},
+  {"type":1, "group":6, "position":1, "break":100},
+  {"type":1, "group":6, "position":2, "break":100},
+  {"type":1, "group":6, "position":1, "break":100},
+  {"type":1, "group":6, "position":0, "break":100},
+  {"type":1, "group":5, "position":6, "break":200}
+]
+

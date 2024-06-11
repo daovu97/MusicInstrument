@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musicaly</string>
+    <string name="lg_english">English</string>
+    <string name="lg_french">French</string>
+    <string name="lg_hindi">Hindi</string>
+    <string name="lg_china">China</string>
+    <string name="lg_spanish">Spanish</string>
+    <string name="lg_portuguese">Portuguese</string>
+    <string name="lg_indo">Indonesian</string>
+    <string name="lg_japan">Japanese</string>
+    <string name="lg_korean">Korean</string>
+    <string name="lg_vietnam">Vietnamese</string>
+
+    <string name="themes">배경</string>
+    <string name="learn_piano">피아노 배우기</string>
+    <string name="menu">메뉴</string>
+    <string name="language">언어</string>
+    <string name="share">공유</string>
+    <string name="rate">평가</string>
+    <string name="privacy_policy">개인정보 보호 정책</string>
+    <string name="play_piano">피아노</string>
+    <string name="guitar">기타</string>
+    <string name="drumset">드럼 세트</string>
+    <string name="theme">테마</string>
+    <string name="tite_splash">이 작업에는 광고가 포함될 수 있습니다</string>
+    <string name="next">다음</string>
+    <string name="beginning_learn_piano">"사용자 친화적인 앱으로 피아노를 마스터하세요.</string>
+    <string name="real_piano">우리 앱으로 피아노 곡을 연주하세요!</string>
+    <string name="and_more_musical_instrument">그리고 더 많은 악기.</string>
+    <string name="start">시작</string>
+    <string name="double_keys">더블 키</string>
+    <string name="_2_players">2 플레이어</string>
+    <string name="style">스타일</string>
+    <string name="setting">설정</string>
+    <string name="recorder">녹음</string>
+    <string name="speed">속도</string>
+    <string name="play">재생</string>
+    <string name="show_notes">음표 표시</string>
+    <string name="manager_file_record">피아노 파일 녹음</string>
+    <string name="volume">볼륨</string>
+    <string name="record_list">녹음 목록</string>
+    <string name="music_list">음악 목록</string>
+    <string name="style_piano">피아노 스타일</string>
+    <string name="micro">마이크로</string>
+    <string name="piano">피아노</string>
+    <string name="storage">저장소</string>
+    <string name="permission">허가</string>
+    <string name="go">이동</string>
+    <string name="string_allow_translate">Musicaly는 기기 저장소와 오디오 녹음 사용 권한이 필요합니다</string>
+    <string name="record_file_audio">오디오 파일 녹음</string>
+    <string name="noti_need_permission">허가를 활성화해야 합니다</string>
+    <string name="go_to_setting">설정으로 이동</string>
+    <string name="record">녹음</string>
+    <string name="save">저장</string>
+    <string name="todo">할 일</string>
+    <string name="change_name">이름 변경</string>
+    <string name="please_feedback">의견을 남겨주세요</string>
+    <string name="warning_record">녹음 중에는 이 작업을 수행할 수 없습니다!</string>
+    <string name="name">이름</string>
+    <string name="swipe_to_change_background">배경 변경을 위해 스와이프하세요</string>
+    <string name="accept">수락</string>
+
+
+</resources>

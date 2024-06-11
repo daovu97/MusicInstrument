@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musicaly</string>
+    <string name="lg_english">English</string>
+    <string name="lg_french">French</string>
+    <string name="lg_hindi">Hindi</string>
+    <string name="lg_china">China</string>
+    <string name="lg_spanish">Spanish</string>
+    <string name="lg_portuguese">Portuguese</string>
+    <string name="lg_indo">Indonesian</string>
+    <string name="lg_japan">Japanese</string>
+    <string name="lg_korean">Korean</string>
+    <string name="lg_vietnam">Vietnamese</string>
+
+    <string name="themes">Latar Belakang</string>
+    <string name="learn_piano">Belajar Piano</string>
+    <string name="menu">Menu</string>
+    <string name="language">Bahasa</string>
+    <string name="share">Bagikan</string>
+    <string name="rate">Beri Nilai</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="play_piano">Piano</string>
+    <string name="guitar">Gitar</string>
+    <string name="drumset">Drumset</string>
+    <string name="theme">Tema</string>
+    <string name="tite_splash">Tindakan ini mungkin berisi iklan</string>
+    <string name="next">Berikutnya</string>
+    <string name="beginning_learn_piano">"Kuasai piano dengan aplikasi kami yang ramah pengguna.</string>
+    <string name="real_piano">Mainkan lagu-lagu piano dengan aplikasi kami!</string>
+    <string name="and_more_musical_instrument">Dan lebih banyak alat musik lainnya.</string>
+    <string name="start">Mulai</string>
+    <string name="double_keys">Kunci Ganda</string>
+    <string name="_2_players">2 Pemain</string>
+    <string name="style">Gaya</string>
+    <string name="setting">Pengaturan</string>
+    <string name="recorder">Rekam</string>
+    <string name="speed">Kecepatan</string>
+    <string name="play">Mainkan</string>
+    <string name="show_notes">Tampilkan Catatan</string>
+    <string name="manager_file_record">Rekam File Piano</string>
+    <string name="volume">Volume</string>
+    <string name="record_list">Daftar Rekaman</string>
+    <string name="music_list">Daftar Musik</string>
+    <string name="style_piano">Gaya Piano</string>
+    <string name="micro">Mikrofon</string>
+    <string name="piano">Piano</string>
+    <string name="storage">Penyimpanan</string>
+    <string name="permission">Izin</string>
+    <string name="go">Lanjut</string>
+    <string name="string_allow_translate">Musicaly memerlukan izin untuk menggunakan penyimpanan perangkat dan merekam audio</string>
+    <string name="record_file_audio">Rekam file audio</string>
+    <string name="noti_need_permission">Anda perlu mengaktifkan izin</string>
+    <string name="go_to_setting">Buka pengaturan</string>
+    <string name="record">Rekam</string>
+    <string name="save">Simpan</string>
+    <string name="todo">TO-DO</string>
+    <string name="change_name">Ubah nama</string>
+    <string name="please_feedback">Silakan beri masukan</string>
+    <string name="warning_record">Tindakan ini tidak dapat dilakukan saat sedang merekam!</string>
+    <string name="name">Nama</string>
+    <string name="swipe_to_change_background">Geser untuk mengubah latar belakang</string>
+    <string name="accept">Terima</string>
+
+</resources>

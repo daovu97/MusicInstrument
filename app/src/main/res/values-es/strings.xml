@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lg_english">English</string>
+    <string name="lg_french">French</string>
+    <string name="lg_hindi">Hindi</string>
+    <string name="lg_china">China</string>
+    <string name="lg_spanish">Spanish</string>
+    <string name="lg_portuguese">Portuguese</string>
+    <string name="lg_indo">Indonesian</string>
+    <string name="lg_japan">Japanese</string>
+    <string name="lg_korean">Korean</string>
+    <string name="lg_vietnam">Vietnamese</string>
+
+    <string name="app_name">LearnPiano</string>
+    <string name="themes">Temas</string>
+    <string name="learn_piano">Learn Piano</string>
+    <string name="menu">Menú</string>
+    <string name="language">Idioma</string>
+    <string name="share">Compartir</string>
+    <string name="rate">Valorar</string>
+    <string name="privacy_policy">Política de Privacidad</string>
+    <string name="play_piano">Tocar</string>
+    <string name="guitar">Guitarra</string>
+    <string name="drumset">Batería</string>
+    <string name="theme">Tema</string>
+    <string name="tite_splash">Esta acción puede incluir anuncios</string>
+    <string name="next">Siguiente</string>
+    <string name="beginning_learn_piano">Aprende piano con nuestro socio de usuarios.</string>
+    <string name="real_piano">¡Toca melodías de piano con nuestra aplicación!</string>
+    <string name="and_more_musical_instrument">Y más instrumentos musicales.</string>
+    <string name="start">Iniciar</string>
+    <string name="double_keys">Teclas dobles</string>
+    <string name="_2_players">2 jugadores</string>
+    <string name="style">Estilo</string>
+    <string name="setting">Configuración</string>
+    <string name="recorder">Grabadora</string>
+    <string name="speed">Velocidad</string>
+    <string name="play">Tocar</string>
+    <string name="show_notes">Mostrar notas</string>
+    <string name="manager_file_record">Archivo de registros</string>
+    <string name="volume">Volumen</string>
+    <string name="record_list">Lista de grabaciones</string>
+    <string name="music_list">Lista de canciones</string>
+    <string name="style_piano">Estilo de piano</string>
+    <string name="micro">Micrófono</string>
+    <string name="piano">Piano</string>
+    <string name="storage">Almacenamiento</string>
+    <string name="permission">Permiso</string>
+    <string name="go">Ir</string>
+    <string name="string_allow_translate">LearnPiano necesita acceso al almacenamiento del dispositivo y permiso para grabar audio.</string>
+    <string name="record_file_audio">Grabar audio</string>
+    <string name="noti_need_permission">Necesitas habilitar el permiso</string>
+    <string name="go_to_setting">Ir a Configuración</string>
+    <string name="record">Grabar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="save">Guardar</string>
+    <string name="todo">Por hacer</string>
+    <string name="change_name">Cambiar nombre</string>
+    <string name="please_feedback">Por favor, danos tu opinión</string>
+    <string name="warning_record">¡Esta acción no se puede realizar mientras se está grabando!</string>
+    <string name="name">Nombre</string>
+    <string name="swipe_to_change_background">Desliza para cambiar el fondo</string>
+    <string name="accept">Aceptar</string>
+
+</resources>

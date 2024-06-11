@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_1"
+        android:tag="background" />
+
+    <com.musical.instrument.simulator.app.base.HeaderView
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/statusbar"
+        app:cs_title="@string/record"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="30dp"
+        android:text="00:00.00"
+        android:textSize="56sp"
+        app:layout_constraintBottom_toTopOf="@+id/waveformView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerView" />
+
+    <com.musical.instrument.simulator.app.screens.record.WaveformView
+        android:id="@+id/waveformView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:rotationY="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerView" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnDelete"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/ic_ripple"
+        android:padding="8dp"
+        android:src="@drawable/ic_delete_disabled"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/bgRecord"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toStartOf="@+id/bgRecord"
+        app:layout_constraintTop_toTopOf="@+id/bgRecord"
+        app:layout_constraintWidth_percent="0.12" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnRecord"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ic_record"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waveformView"
+        app:layout_constraintWidth_percent="0.16" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnRecordStop"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/ic_record_stop"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waveformView"
+        app:layout_constraintWidth_percent="0.1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bgRecord"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_recode_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waveformView"
+        app:layout_constraintWidth_percent="0.2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

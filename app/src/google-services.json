@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "406290120645",
+    "project_id": "musical-instrument-c405e",
+    "storage_bucket": "musical-instrument-c405e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406290120645:android:8d89d5b975913fec8c95ac",
+        "android_client_info": {
+          "package_name": "com.musical.instrument.simulator.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfhGQey5VkMR7yehuyxNBnuCqI8ltTIkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

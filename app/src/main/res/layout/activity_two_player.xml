@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </RelativeLayout>
+
+    <com.chengtao.pianoview.view.PianoView
+        android:id="@+id/piano_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout_1"
+        app:layout_constraintTop_toBottomOf="@+id/layout_3" />
+
+    <RelativeLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_38sdp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/layout_center">
+
+        <ImageView
+            android:id="@+id/background1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_piano_pink" />
+
+        <ImageView
+            android:id="@+id/iconBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_back" />
+
+        <ImageView
+            android:id="@+id/img_start_3"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="120dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/button_piano_start" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_previous_3"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/img_start_3"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/button_piano_previous" />
+
+        <SeekBar
+            android:id="@+id/seekbar_3"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:layout_toStartOf="@+id/img_next_3"
+            android:layout_toEndOf="@+id/img_previous_3"
+            android:background="@drawable/image_piano_previous"
+            android:max="100"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:progressDrawable="@drawable/bg_seekbar_progress"
+            android:thumb="@drawable/seekbar_thumb" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_next_3"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_toStartOf="@+id/img_end_3"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/button_piano_next" />
+
+        <ImageView
+            android:id="@+id/img_end_3"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="120dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/button_piano_end" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_center"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/nativeContainer"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        app:layout_constraintTop_toBottomOf="@+id/layout_center">
+
+        <ImageView
+            android:id="@+id/background2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_piano_pink" />
+
+        <ImageView
+            android:id="@+id/img_start_2"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="120dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/button_piano_start" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_previous_2"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/img_start_2"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/button_piano_previous" />
+
+        <SeekBar
+            android:id="@+id/seekbar_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:layout_toStartOf="@+id/img_next_2"
+            android:layout_toEndOf="@+id/img_previous_2"
+            android:background="@drawable/image_piano_previous"
+            android:max="100"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp"
+            android:progressDrawable="@drawable/bg_seekbar_progress"
+            android:thumb="@drawable/seekbar_thumb" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_next_2"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_toStartOf="@+id/img_end_2"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/button_piano_next" />
+
+        <ImageView
+            android:id="@+id/img_end_2"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="120dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/button_piano_end" />
+    </RelativeLayout>
+
+    <com.chengtao.pianoview.view.PianoView
+        android:id="@+id/piano_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/nativeContainer"
+        app:layout_constraintTop_toBottomOf="@+id/layout_2" />
+
+
+    <LinearLayout
+        android:id="@+id/nativeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

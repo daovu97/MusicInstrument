@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musicaly</string>
+    <string name="lg_english">English</string>
+    <string name="lg_french">French</string>
+    <string name="lg_hindi">Hindi</string>
+    <string name="lg_china">China</string>
+    <string name="lg_spanish">Spanish</string>
+    <string name="lg_portuguese">Portuguese</string>
+    <string name="lg_indo">Indonesian</string>
+    <string name="lg_japan">Japanese</string>
+    <string name="lg_korean">Korean</string>
+    <string name="lg_vietnam">Vietnamese</string>
+
+    <string name="themes">背景</string>
+    <string name="learn_piano">ピアノを学ぶ</string>
+    <string name="menu">メニュー</string>
+    <string name="language">言語</string>
+    <string name="share">共有</string>
+    <string name="rate">評価</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="play_piano">ピアノ</string>
+    <string name="guitar">ギター</string>
+    <string name="drumset">ドラムセット</string>
+    <string name="theme">テーマ</string>
+    <string name="tite_splash">このアクションには広告が含まれている可能性があります</string>
+    <string name="next">次へ</string>
+    <string name="beginning_learn_piano">"ユーザーフレンドリーなアプリでピアノをマスターしましょう。</string>
+    <string name="real_piano">アプリでピアノの曲を演奏しましょう！</string>
+    <string name="and_more_musical_instrument">さらに多くの楽器があります。</string>
+    <string name="start">開始</string>
+    <string name="double_keys">ダブルキー</string>
+    <string name="_2_players">2人プレイ</string>
+    <string name="style">スタイル</string>
+    <string name="setting">設定</string>
+    <string name="recorder">録音</string>
+    <string name="speed">速度</string>
+    <string name="play">再生</string>
+    <string name="show_notes">音符表示</string>
+    <string name="manager_file_record">ピアノファイル録音</string>
+    <string name="volume">音量</string>
+    <string name="record_list">録音リスト</string>
+    <string name="music_list">音楽リスト</string>
+    <string name="style_piano">ピアノのスタイル</string>
+    <string name="micro">マイクロ</string>
+    <string name="piano">ピアノ</string>
+    <string name="storage">ストレージ</string>
+    <string name="permission">許可</string>
+    <string name="go">進む</string>
+    <string name="string_allow_translate">Musicalyはデバイスのストレージと音声録音の許可が必要です</string>
+    <string name="record_file_audio">音声ファイルを録音</string>
+    <string name="noti_need_permission">許可を有効にする必要があります</string>
+    <string name="go_to_setting">設定に移動</string>
+    <string name="record">録音</string>
+    <string name="save">保存</string>
+    <string name="todo">未完了</string>
+    <string name="change_name">名前を変更</string>
+    <string name="please_feedback">フィードバックをお願いします</string>
+    <string name="warning_record">録音中にこの操作は実行できません！</string>
+    <string name="name">名前</string>
+    <string name="swipe_to_change_background">背景を変更するにはスワイプしてください</string>
+    <string name="accept">受け入れる</string>
+
+
+</resources>

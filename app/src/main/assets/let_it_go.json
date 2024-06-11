@@ -1,0 +1,68 @@
+[
+  {"type":1, "group":4, "position":5, "break":100},
+  {"type":1, "group":4, "position":6, "break":100},
+  {"type":1, "group":5, "position":0, "break":200},
+
+  {"type":1, "group":4, "position":4, "break":100},
+  {"type":1, "group":4, "position":4, "break":100},
+  {"type":1, "group":5, "position":1, "break":200},
+
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":4, "position":5, "break":100},
+  {"type":1, "group":4, "position":5, "break":100},
+  {"type":1, "group":4, "position":5, "break":100},
+  {"type":1, "group":4, "position":5, "break":100},
+  {"type":1, "group":4, "position":6, "break":100},
+  {"type":1, "group":5, "position":0, "break":200},
+
+  {"type":1, "group":4, "position":5, "break":100},
+  {"type":1, "group":4, "position":6, "break":100},
+  {"type":1, "group":5, "position":0, "break":100},
+
+  {"type":1, "group":4, "position":4, "break":200},
+
+  {"type":1, "group":5, "position":2, "break":100},
+  {"type":1, "group":5, "position":2, "break":100},
+  {"type":1, "group":5, "position":2, "break":100},
+  {"type":1, "group":5, "position":1, "break":200},
+
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":1, "break":100},
+  {"type":1, "group":5, "position":2, "break":100},
+  {"type":1, "group":5, "position":2, "break":100},
+  {"type":1, "group":5, "position":3, "break":100},
+  {"type":1, "group":5, "position":2, "break":100},
+  {"type":1, "group":5, "position":1, "break":100},
+  {"type":1, "group":5, "position":1, "break":100},
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":0, "break":200},
+
+
+  {"type":1, "group":5, "position":4, "break":100},
+  {"type":1, "group":5, "position":2, "break":100},
+  {"type":1, "group":5, "position":1, "break":100},
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":4, "break":100},
+  {"type":1, "group":5, "position":4, "break":100},
+  {"type":1, "group":5, "position":2, "break":100},
+  {"type":1, "group":5, "position":0, "break":200},
+
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":4, "position":6, "break":100},
+  {"type":1, "group":4, "position":4, "break":100},
+  {"type":1, "group":4, "position":4, "break":200},
+
+  {"type":1, "group":4, "position":0, "break":100},
+  {"type":1, "group":4, "position":3, "break":100},
+  {"type":1, "group":4, "position":3, "break":100},
+  {"type":1, "group":4, "position":2, "break":100},
+  {"type":1, "group":4, "position":3, "break":100},
+  {"type":1, "group":4, "position":2, "break":100},
+  {"type":1, "group":4, "position":3, "break":100},
+  {"type":1, "group":4, "position":3, "break":100},
+  {"type":1, "group":4, "position":2, "break":100},
+  {"type":1, "group":4, "position":0, "break":200}
+]
+

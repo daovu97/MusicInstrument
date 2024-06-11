@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/dimen_16">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edtBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_edit_text_line"
+            android:hint="@string/name"
+            android:maxLines="2"
+            android:paddingEnd="@dimen/dimen_16"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/baseTextview8" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/baseTextview8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/change_name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            app:layout_constraintTop_toBottomOf="@id/edtBarcode">
+
+            <com.musical.instrument.simulator.app.base.BaseTextview
+                android:id="@+id/txtCancel"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginVertical="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="@dimen/dimen_8"
+                android:layout_weight="1"
+                android:background="@drawable/bg_snoonze_btn"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="@string/com_facebook_loginview_cancel_action"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txtOk" />
+
+            <com.musical.instrument.simulator.app.base.BaseTextview
+                android:id="@+id/txtOk"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginVertical="24dp"
+                android:layout_marginStart="@dimen/dimen_8"
+                android:layout_marginEnd="@dimen/dimen_16"
+                android:layout_weight="1"
+                android:background="@drawable/active_button"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/txtCancel" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

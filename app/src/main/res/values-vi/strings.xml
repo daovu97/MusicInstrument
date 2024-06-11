@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musicaly</string>
+    <string name="lg_english">English</string>
+    <string name="lg_french">French</string>
+    <string name="lg_hindi">Hindi</string>
+    <string name="lg_china">China</string>
+    <string name="lg_spanish">Spanish</string>
+    <string name="lg_portuguese">Portuguese</string>
+    <string name="lg_indo">Indonesian</string>
+    <string name="lg_japan">Japanese</string>
+    <string name="lg_korean">Korean</string>
+    <string name="lg_vietnam">Vietnamese</string>
+
+    <string name="themes">Chủ đề</string>
+    <string name="learn_piano">Học Piano</string>
+    <string name="menu">Menu</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="share">Chia sẻ</string>
+    <string name="rate">Đánh giá</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="play_piano">Piano</string>
+    <string name="guitar">Guitar</string>
+    <string name="drumset">Bộ trống</string>
+    <string name="theme">Giao diện</string>
+    <string name="tite_splash">Hành động này có thể chứa quảng cáo</string>
+    <string name="next">Tiếp theo</string>
+    <string name="beginning_learn_piano">"Học chơi piano với ứng dụng thân thiện của chúng tôi.</string>
+    <string name="real_piano">Chơi nhạc piano với ứng dụng của chúng tôi!</string>
+    <string name="and_more_musical_instrument">Và nhiều nhạc cụ khác nữa.</string>
+    <string name="start">Bắt đầu</string>
+    <string name="double_keys">Phím đôi</string>
+    <string name="_2_players">2 người chơi</string>
+    <string name="style">Kiểu</string>
+    <string name="setting">Cài đặt</string>
+    <string name="recorder">Ghi âm</string>
+    <string name="speed">Tốc độ</string>
+    <string name="play">Chơi</string>
+    <string name="show_notes">Hiển thị Ghi chú</string>
+    <string name="manager_file_record">Quản lý Tệp Ghi âm Piano</string>
+    <string name="volume">Âm lượng</string>
+    <string name="record_list">Danh sách Ghi âm</string>
+    <string name="music_list">Danh sách Âm nhạc</string>
+    <string name="style_piano">Kiểu Piano</string>
+    <string name="micro">Micro</string>
+    <string name="piano">Piano</string>
+    <string name="storage">Lưu trữ</string>
+    <string name="permission">Quyền hạn</string>
+    <string name="go">Tiến hành</string>
+    <string name="string_allow_translate">Musicaly yêu cầu quyền để sử dụng lưu trữ thiết bị và ghi âm âm thanh</string>
+    <string name="record_file_audio">Ghi âm tệp âm thanh</string>
+    <string name="noti_need_permission">Bạn cần kích hoạt quyền hạn</string>
+    <string name="go_to_setting">Chuyển đến cài đặt</string>
+    <string name="record">Ghi âm</string>
+    <string name="save">Lưu</string>
+    <string name="todo">LÀM</string>
+    <string name="change_name">Đổi tên</string>
+    <string name="please_feedback">Vui lòng gửi phản hồi</string>
+    <string name="warning_record">Hành động này không thể thực hiện khi đang ghi âm!</string>
+    <string name="name">Tên</string>
+    <string name="swipe_to_change_background">Vuốt để thay đổi nền</string>
+    <string name="accept">Chấp nhận</string>
+
+
+</resources>

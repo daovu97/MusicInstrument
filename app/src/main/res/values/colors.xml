@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#AAA8B8</color>
+
+    <color name="primary">#FF5722</color>
+    <color name="text_primary">#201510</color>
+    <color name="text_hint">#8D8484</color>
+    <color name="text_high_light">#FF5722</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="primaryColor">#FF5722</color>
+    <color name="txt_color">#343434</color>
+    <color name="color_default_tab1" tools:ignore="MissingDefaultResource">#7C7C7C</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_settings_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <com.musical.instrument.simulator.app.base.HeaderView
+        android:id="@+id/header_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/statusbar"
+        app:cs_title="@string/setting"
+        app:layout_constraintTop_toTopOf="parent"
+        app:left_action_type="none" />
+
+
+    <ScrollView
+        android:id="@+id/scrollable"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/rl_banner_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_setting">
+
+        <LinearLayout
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.musical.instrument.simulator.app.base.BaseTextview
+                android:id="@+id/btnTheme"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="16dp"
+                android:drawableStart="@drawable/ic_background"
+                android:drawableEnd="@drawable/ic_view"
+                android:drawablePadding="16dp"
+                android:padding="16dp"
+                android:text="@string/themes"
+                android:textColor="@color/black" />
+
+
+            <com.musical.instrument.simulator.app.base.BaseTextview
+                android:id="@+id/btn_language"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="16dp"
+                android:drawableStart="@drawable/ic_language"
+                android:drawableEnd="@drawable/ic_view"
+                android:gravity="center_vertical"
+                android:text="@string/language"
+                android:textColor="@color/black" />
+
+            <com.musical.instrument.simulator.app.base.BaseTextview
+                android:id="@+id/btn_rate_us"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="16dp"
+                android:drawableStart="@drawable/ic_rate"
+                android:drawableEnd="@drawable/ic_view"
+                android:text="@string/rate"
+                android:textColor="@color/black" />
+
+            <com.musical.instrument.simulator.app.base.BaseTextview
+                android:id="@+id/btn_feedback"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="16dp"
+                android:drawableStart="@drawable/ic_feed_back"
+                android:drawableEnd="@drawable/ic_view"
+                android:text="@string/please_feedback"
+                android:textColor="@color/black"
+                android:visibility="visible" />
+
+            <com.musical.instrument.simulator.app.base.BaseTextview
+                android:id="@+id/btn_share"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="16dp"
+                android:drawableStart="@drawable/ic_share"
+                android:drawableEnd="@drawable/ic_view"
+                android:text="@string/share"
+                android:textColor="@color/black" />
+
+            <com.musical.instrument.simulator.app.base.BaseTextview
+                android:id="@+id/btn_privacy_policy"
+                style="@style/text_view_item_setting"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawableStart="@drawable/ic_policy"
+                android:drawableEnd="@drawable/ic_view"
+                android:text="@string/privacy_policy"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_banner_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E3E2E2"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <include
+            android:id="@+id/banner"
+            layout="@layout/layout_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:visibility="visible" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,125 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.google.firebase.crashlytics'
+    id 'com.google.gms.google-services'
+    id 'com.google.devtools.ksp'
+    id 'dagger.hilt.android.plugin'
+}
+android {
+    namespace = "com.musical.instrument.simulator.app"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.musical.instrument.simulator.app"
+        minSdkVersion 26
+        targetSdkVersion 34
+        versionCode 103
+        versionName "1.0.3"
+
+        multiDexEnabled true
+
+        def formattedDate = new Date().format('MM.dd.yyyy')
+        archivesBaseName = "LearnPiano_v${versionName}_v${versionCode}_${formattedDate}"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        ksp {
+            arg('room.schemaLocation', "$projectDir/schemas")
+        }
+
+        buildConfigField("String", "EMAIL_ADDRESS", "\"vtool.app.help@gmail.com\"")
+        buildConfigField("String", "URL_PRIVACY", "\"https://postmess1.commude-vietnam.work/privacy/vtool_finder.html\"")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    viewBinding {
+        enabled = true
+    }
+
+    buildFeatures {
+        buildConfig = true
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+        density {
+            // This property is set to true by default.
+            enableSplit = true
+        }
+        abi {
+            // This property is set to true by default.
+            enableSplit = true
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation implementation(project(':PianoLib',))
+
+    implementation "androidx.core:core-ktx:1.12.0"
+    implementation "androidx.activity:activity-ktx:1.8.0"
+    implementation "junit:junit:4.13.2"
+    implementation "androidx.test.ext:junit:1.1.5"
+    implementation "androidx.test.espresso:espresso-core:3.5.1"
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "com.google.android.material:material:1.10.0"
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+
+    def hilt_version = "2.48.1"
+    implementation("com.google.dagger:hilt-android:$hilt_version")
+    ksp "com.google.dagger:dagger-compiler:2.48.1" // Dagger compiler
+    ksp "com.google.dagger:hilt-compiler:2.48.1"   // Hilt compiler
+
+    def room_version = "2.6.0"
+    implementation "androidx.room:room-runtime:$room_version"
+    ksp "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+
+    def lifecycle_version = "2.6.2"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-core-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+
+    implementation "me.relex:circleindicator:2.1.6"
+    implementation 'com.google.android.play:core:1.10.3'
+
+    //ads
+    implementation 'com.github.chiennq44:AdsLibrary:1.2.3'
+    implementation 'com.google.android.gms:play-services-ads:22.5.0'
+
+    //multidex
+    implementation "androidx.multidex:multidex:2.0.1"
+
+    implementation 'com.google.android.play:core:1.10.3'
+
+    implementation platform('com.google.firebase:firebase-bom:32.3.1')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation("com.google.firebase:firebase-config-ktx")
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    implementation "androidx.fragment:fragment-ktx:1.6.2"
+}
+

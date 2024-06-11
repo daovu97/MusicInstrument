@@ -1,0 +1,31 @@
+[
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":1, "break":100},
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":3, "break":100},
+  {"type":1, "group":5, "position":2, "break":200},
+
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":1, "break":100},
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":4, "break":100},
+  {"type":1, "group":5, "position":3, "break":200},
+
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":5, "position":0, "break":100},
+  {"type":1, "group":6, "position":0, "break":100},
+  {"type":1, "group":5, "position":5, "break":100},
+  {"type":1, "group":5, "position":3, "break":100},
+  {"type":1, "group":5, "position":2, "break":100},
+  {"type":1, "group":5, "position":1, "break":200},
+
+  {"type":0, "group":5, "position":4, "break":100},
+  {"type":0, "group":5, "position":4, "break":100},
+  {"type":1, "group":5, "position":5, "break":100},
+  {"type":1, "group":5, "position":3, "break":100},
+  {"type":1, "group":5, "position":4, "break":100},
+  {"type":1, "group":5, "position":3, "break":200}
+]
+
