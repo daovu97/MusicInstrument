@@ -1,12 +1,11 @@
 # Musicaly
 
 Let everyone explore the world of musical instrument by sound applications on your mobile devices. They can identify all the instruments through beautiful images, authentic, high-quality sound
-
+<img src="./img/img_0.png" width="600px" height="auto">
 [Google Play link](https://play.google.com/store/apps/details?id=com.musical.instrument.simulator.app)
 
 ## Screenshots
 <p>
-<img src="./img/img_0.png" width="600px" height="auto">
 <img src="./img/img_1.png" width="200px" height="auto">
 <img src="./img/img_2.png" width="200px" height="auto">
 <img src="./img/img_3.png" width="200px" height="auto">
