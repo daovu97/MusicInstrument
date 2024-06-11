@@ -6,12 +6,12 @@ Let everyone explore the world of musical instrument by sound applications on yo
 
 ## Screenshots
 <p>
-<img src="./img/image_0.png" width="600px" height="auto">
-<img src="./img/image_1.png" width="200px" height="auto">
-<img src="./img/image_2.png" width="200px" height="auto">
-<img src="./img/image_3.png" width="200px" height="auto">
-<img src="./img/image_5.png" width="200px" height="auto">
-<img src="./img/image_6.png" width="200px" height="auto">
+<img src="./img/img_0.png" width="600px" height="auto">
+<img src="./img/img_1.png" width="200px" height="auto">
+<img src="./img/img_2.png" width="200px" height="auto">
+<img src="./img/img_3.png" width="200px" height="auto">
+<img src="./img/img_5.png" width="200px" height="auto">
+<img src="./img/img_6.png" width="200px" height="auto">
  </p>
 
 ## The application use MVVM
