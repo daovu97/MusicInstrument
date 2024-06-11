@@ -2,7 +2,7 @@
 
 Let everyone explore the world of musical instrument by sound applications on your mobile devices. They can identify all the instruments through beautiful images, authentic, high-quality sound
 
-[Google Play link](https://play.google.com/store/apps/details?id=com.findmyphone.clapping.find)
+[Google Play link](https://play.google.com/store/apps/details?id=com.musical.instrument.simulator.app)
 
 ## Screenshots
 <p>
